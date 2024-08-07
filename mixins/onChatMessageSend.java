@@ -15,8 +15,6 @@ public class onChatMessageSend {
     private void onSendChatMessage(String message, CallbackInfo info) {
         PlayerEntity player = MinecraftClient.getInstance().player;
         System.out.println(message);
-
-        // ci.cancel() to stop the message being sent!
     }
   
 }
